@@ -9,7 +9,7 @@ bot = TeleBot("1114535076:AAFCnD1VMmFaj5hdpAosKtrTgLjkkJHCQFA")
 
 @bot.message_handler(commands=['start'])
 def start(msg):
-    bot.send_message(msg.chat.id, text='Goodbye world')
+    bot.send_message(msg.chat.id, text='Hello world')
 
 
 @bot.message_handler(content_types=["text"])
